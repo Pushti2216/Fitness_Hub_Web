@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-image:linear-gradient(to top right ,rgb(155, 125, 125),rgb(71, 71, 71));
+            background-repeat: no-repeat;
+            font-size:larger;
+        
+        }
+        form{
+            max-width: 30%;
+            height: 100%;
+            margin: 0 35%;
+            border:2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            padding-left: 5%;
+        }
+        h1{
+            text-align: center;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form action="" autocomplete="off">
+        <br>
+        <label for="Fname">Full Name:</label><br>
+        <input type="text" placeholder="Enter your fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+
+        <label for="psw">Password:</label><br>
+        <input type="password" placeholder="Enter your password" required><br><br>
+
+        <label for="number">Phone Number:</label><br>
+        <input type="tel" placeholder="Enter your number" max="10"  required><br><br>
+
+        <label for="address">Date Of Birth</label><br>
+        <input type="date" placeholder="Enter your birth date" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other<br><br>
+
+        <label for="gender">Workout Mode:</label><br>
+        <input type="radio" name="mode">Online
+        <input type="radio" name="mode">Offline<br><br>
+
+        <input type="checkbox"> I agree with terms & conditions<br><br>
+
+        <button type="submit">Submit</button>       
+        <button type="reset">Reset</button><br><br>
+
+
+
+
+
+       
+
+
+
+    </form>
+</body>
+</html>
