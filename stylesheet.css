@@ -1,45 +1,53 @@
 body{
     width: 100%;
     font-family: 'PT Sans', sans-serif;
-}  
+} 
+nav{
+    width: 94.55%;
+    overflow: auto;
+    background-color: black;
+    right: 0;
+    top: 0;
+    position: fixed;} 
+li{
+    float: left;
+}
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+li a:hover{
+    color: red;
+    font-weight: bolder;
+}
+.logo{
+    width: 4.90%;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    position: fixed;
+    background-color: black;
+}
+
+.button{
+    color: rgb(255, 0, 0);
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
 .bgimg{
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     
-}
-.icon{
-    width:30px;
-    margin-left: 40%;
-}
-.menu{
-    top: 0;
-    padding: 10px 20px;
-    position: fixed;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-}
-
-a.item{
-    float: center;
-    text-decoration: none;
-    color: white;
-    margin: 30px;
-    font-size: larger;
-}
-
-a.item:hover{
-    color: red;
-}
-
-.button{
-    color: rgb(255, 0, 0);
-    float: right;
-    padding-right: 50px;
-    text-decoration: none;
-    font-size: larger;
-    font-weight: bold;
 }
 .heading{
     text-align: center;
@@ -63,6 +71,11 @@ a.item:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+ .image:hover{
+    opacity: 0.9;
+    border-radius: 30px;
+
 }
 .section-container .columns .content{
     
@@ -101,4 +114,8 @@ footer{
 }
 .media{
     padding: 2%;
+}
+.mail{
+    text-decoration: none;
+    color: red;
 }
